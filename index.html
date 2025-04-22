@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>متجر ستايلك</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🛍️ متجر ستايلك</h1>
+    <nav>
+      <a href="index.html">الرئيسية</a>
+      <a href="#">منتجات</a>
+      <a href="cart.html">السلة</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="products">
+      <div class="product">
+        <img src="images/shirt1.jpg" alt="قميص كاجوال">
+        <h3>قميص كاجوال</h3>
+        <p>100 جنيه</p>
+        <button onclick="addToCart('قميص كاجوال', 100, 'images/shirt1.jpg')">أضف للسلة</button>
+      </div>
+      
+      <div class="product">
+        <img src="images/shirt2.jpg" alt="قميص ستايل">
+        <h3>قميص ستايل</h3>
+        <p>120 جنيه</p>
+        <button onclick="addToCart('قميص ستايل', 120, 'images/shirt2.jpg')">أضف للسلة</button>
+      </div>
+
+      <!-- يمكنك إضافة المزيد من المنتجات هنا -->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
